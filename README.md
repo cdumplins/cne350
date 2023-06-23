@@ -1,4 +1,26 @@
-# Tailscale Installation Guide for Raspberry Pi
+***important***
+
+This repository includes two Bash code files that provide the necessary commands for installing and configuring Tailscale on a Raspberry Pi.
+```
+- [bash1.sh](bash1.sh): This file contains the commands to update your Raspberry Pi by running `sudo apt update` and `sudo apt upgrade`.
+```
+```
+- [bash2.sh](bash2.sh): This file contains the commands to download and install Tailscale on your Raspberry Pi by using `curl`, `gpg`, and `apt`.
+````
+*** follow these steps:***
+
+1. Download the code files from this repository.
+2. Connect to your Raspberry Pi and open a terminal.
+3. Run the commands in `bash1.sh` to update your Raspberry Pi.
+4. Run the commands in `bash2.sh` to download and install Tailscale.
+
+Make sure to execute the commands with appropriate privileges, such as using `sudo`, as required.
+
+Note: This readme assumes you have a Raspberry Pi running Raspbian OS and an active internet connection.
+
+
+Tailscale Installation Guide for Raspberry Pi
+
 
 This guide provides step-by-step instructions to install and configure Tailscale on a Raspberry Pi for secure networking and remote access.
 
@@ -49,7 +71,8 @@ To verify that Tailscale is working correctly on your Raspberry Pi, use the foll
 ```
 tailscale status
 ```
-This command displays the current status of Tailscale and the IP address assigned to your device.
+This command displays the current status of Tailscale and the IP address assigned to your 
+device.
 
 Usage
 Once Tailscale is successfully installed and configured on your Raspberry Pi, you can securely connect to it from other devices using Tailscale.
