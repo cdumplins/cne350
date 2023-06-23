@@ -6,7 +6,7 @@ This repository includes two Bash code files that provide the necessary commands
 ```
 ```
 - [bash2.sh](bash2.sh): This file contains the commands to download and install Tailscale on your Raspberry Pi by using `curl`, `gpg`, and `apt`.
-````
+```
 *** follow these steps:***
 
 1. Download the code files from this repository.
